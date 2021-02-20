@@ -28,7 +28,7 @@ const Main = (props) => {
       <Jumbotron fluid className="main-background">
         <Container className="pt-5 contQuotes">
           <h3 className="text-center mt-5 pt-3 mb-3 quotesLanding quotes1">
-            “Lorem ipsum dolor sit amet”
+            “Lorem ipsum dolor sit amet amet amet”
           </h3>
           <h3 className="text-center quotesLanding quotes2 pb-3">MentorinAja</h3>
           <Row>
