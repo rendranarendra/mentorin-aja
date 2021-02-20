@@ -5,7 +5,6 @@ import { Container, Row, Col } from "react-bootstrap";
 
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
-import Team from "./Team";
 
 import "./About.css";
 

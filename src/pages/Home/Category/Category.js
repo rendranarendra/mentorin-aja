@@ -10,9 +10,6 @@ import art from "../../../image/category/art.jpeg";
 import film from "../../../image/category/film.jpeg";
 import fashion from "../../../image/category/fashion.jpeg";
 import sport from "../../../image/category/sport.jpeg";
-import festival from "../../../image/category/festival.jpeg";
-import nightlife from "../../../image/category/nightlife.jpeg";
-import charity from "../../../image/category/charity.jpg";
 import education from "../../../image/category/Education.jpeg";
 
 import "./Category.css";

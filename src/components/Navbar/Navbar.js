@@ -22,15 +22,6 @@ const Navbars = (props) => {
     });
   };
 
-  const pushKlik = () => {
-    const token = localStorage.getItem("access-token");
-    if (!token) {
-      history.push("/login");
-    } else {
-      history.push("/event/create");
-    }
-  };
-
   useEffect(
     () => {
 

@@ -5,7 +5,6 @@ import {
   Col,
   Jumbotron
 } from "react-bootstrap";
-import { Link } from "react-router-dom";
 
 import { connect } from 'react-redux'
 import { showError } from '../../../actions/modalActions'
@@ -20,8 +19,8 @@ import "../Main/Main.css";
 // const url = `${process.env.REACT_APP_API_URL}`;
 
 const Main = (props) => {
-  const [posts, setPosts] = useState([1,2,3,4,5,6,7,8]);
-  const [loading, setLoading] = useState(false);
+  const [posts] = useState([1,2,3,4,5,6,7,8]);
+  const [loading] = useState(false);
 
   return (
     <div>

@@ -17,6 +17,7 @@ const App = (props) => {
         <Switch>
           <Route path="/about" component={About} />
           <Route exact path="/" component={Main} />
+          <Route path="/allEvent" component={allEvent}/>
 
         </Switch>
       </Router>
