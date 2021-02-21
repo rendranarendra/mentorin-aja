@@ -15,7 +15,7 @@ const Navbars = (props) => {
   const pushKlik = () => {
     const token = localStorage.getItem("access-token");
     if (!token) {
-      history.push("/login");
+      history.push("/sign-up");
     } else {
       history.push("/event/create");
     }
