@@ -60,11 +60,11 @@ const Navbars = (props) => {
       } else {
         setViewLogin(
           <Nav>
-            <Link to="/login" className="linkSign text-center">
+            <Link to="/sign-up" className="linkSign text-center">
               <i className="fas fa-sign-in-alt mr-2"></i>
                 Sign In
             </Link>
-            <Link to="/login" className="buttonSign mx-auto">
+            <Link to="/sign-up" className="buttonSign mx-auto">
               <Button className="signButton">
                 Sign In
                 <i className="fas fa-sign-in-alt ml-2"></i>
