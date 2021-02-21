@@ -1,0 +1,74 @@
+.sign-up-container {
+  display: flex;
+}
+.sign-up-left-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 100vh;
+  background-color: grey;
+}
+.sign-up-rotate-title {
+  transform: rotate(-90deg);
+  font-size: 60px;
+  margin-bottom: 100px;
+}
+.sign-up-right-container {
+  display: flex;
+  flex-direction: column;
+}
+.sign-up-button-container {
+  display: flex;
+  align-self: flex-end;
+  justify-content: space-between;
+  width: 300px;
+  margin: 15px;
+  padding: 10px;
+  background-color: grey;
+  border-radius: 30px;
+}
+.button-type {
+  width: 135px;
+  border-radius: 20px;
+}
+.button-type-active {
+  width: 135px;
+  background-color: lightgray;
+  border-radius: 20px;
+}
+.sign-up-title {
+  align-self: center;
+  margin-bottom: 15px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+.inputs-container {
+  display: flex;
+  flex: 1 1 auto;
+}
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px 15px;
+}
+.photo-container {
+  display: flex;
+  justify-content: space-between;
+}
+.custom-file-container {
+  width: 50%;
+}
+.link-to-sign-up {
+  margin-left: 5px;
+  font-weight: 600;
+}
+.sign-up-submit {
+  align-self: flex-end;
+  padding: 10px 20px;
+  background-color: grey;
+  border-radius: 20px;
+}
